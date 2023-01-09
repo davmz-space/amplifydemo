@@ -8,8 +8,8 @@ const myAPI = "apid905fe65";
 const path = "/customers"; 
 
 const App = () => {
-  const [input, setInput] = useState("")
-  const [customers, setCustomers] = useState([])
+  const [input, setInput] = useState("");
+  const [customers, setCustomers] = useState([]);
 
   // Function to fetch from our backend and update customers array
   function getCustomer(e) {
